@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Seacher App Service</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  img{
+    border: 0;
+    display: block;
+  }
+  video{
+    border:0;
+  }
+@@media (max-width: 600px) {
+  .footer{
+      display: block;
+  }
+}
+  </style>
+  <body>
+    <div>
+    <img src="./title_motion.gif">
+  </div>
+  <video width="100%" controls>
+    <source src="videos/seacher.mp4">
+    <source src="videos/seacher.ogv">
+  </video>
+<img src="./main_2x.png">
+<div class="footer" data-aos="fade-left">
+  <img src="./footer.png">
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({
+     offset:400,
+     duration:1000
+   });
+ </script>
+
+</body>
+</html>
